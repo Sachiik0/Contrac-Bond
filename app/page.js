@@ -3,7 +3,7 @@ export default function PitchPage() {
     <main className="h-screen w-screen overflow-y-scroll snap-y snap-mandatory bg-black text-white font-sans">
       {/* Slide 1: Title */}
       <section className="h-screen w-full snap-start flex flex-col justify-center items-center px-6">
-        <h1 className="text-5xl font-bold">contrc-Bond</h1>
+        <h1 className="text-5xl font-bold">Contrac-Bond</h1>
         <p className="text-xl mt-4">Protect Your Work. Protect Your Worth.</p>
       </section>
 
@@ -25,7 +25,7 @@ export default function PitchPage() {
       {/* Slide 3: Solution & How It Works */}
       <section className="h-screen w-full snap-start flex flex-col justify-center items-center px-6 text-center space-y-4">
         <h2 className="text-3xl font-semibold">Proposed Solution & How It Works</h2>
-        <p><strong>Contra-Band</strong> is an online contract builder for freelancers and artists.</p>
+        <p><strong>Contrac-Bond</strong> is an online contract builder for freelancers and artists.</p>
         <ul className="list-disc text-left list-inside">
           <li>Create contracts from templates (NDA, DA, Work Agreements)</li>
           <li>Auto-fill fields into PDF</li>
@@ -48,7 +48,7 @@ export default function PitchPage() {
         </ul>
         <p>🌍 1.57B freelancers globally — Statista, 2024</p>
         <p>📈 Creative freelancers are 2x more likely to face non-payment — Upwork Study, 2023</p>
-        <p>Contra-Band prevents scope violations, secures IP through NDA/DA, and simplifies contract workflows.</p>
+        <p>Contrac-Bond prevents scope violations, secures IP through NDA/DA, and simplifies contract workflows.</p>
       </section>
 
       {/* Slide 5: Work Plan */}
