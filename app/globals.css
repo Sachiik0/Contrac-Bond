@@ -4,34 +4,32 @@
 
 /* CSS Variables */
 :root {
-  --background: #f8fafc; /* Soft light gray-blue */
-  --foreground: #1f2937; /* Dark slate for solid readability */
-  --primary: #4f46e5;    /* Indigo 600 - Reliable & modern */
-  --primary-hover: #4338ca; /* Indigo 700 - Slightly deeper */
-  --accent: #00a8e8;     /* Sky Blue - Friendly highlights */
-  --success: #28c76f;    /* Green - for confirmations */
-  --error: #ef4444;      /* Red - error messages */
-  --card-bg: #ffffff;
-  --card-border: #e5e7eb;
+  --background: #fffbea; /* Soft beige background */
+  --foreground: #1f1f1f; /* Deep gray for text */
+  --primary: #fcd34d;    /* Pastel yellow */
+  --primary-hover: #fbbf24; /* Slightly richer yellow */
+  --accent: #facc15;     /* Gold accent */
+  --success: #a3e635;    /* Soft lime green */
+  --error: #f87171;      /* Soft red */
+  --card-bg: #ffffff;    /* White card backgrounds */
+  --card-border: #fef3c7;/* Very light yellow for soft edges */
   --font-sans: var(--font-montserrat);
 }
 
-/* Dark mode (optional) */
+/* Optional dark mode override if ever needed */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1e1e2f;
-    --foreground: #f3f4f6;
-    --primary: #818cf8; /* Light indigo */
-    --primary-hover: #6366f1;
-    --accent: #38bdf8;  /* Sky-400 */
-    --success: #22c55e;
+    --background: #292524;
+    --foreground: #fefce8;
+    --primary: #fde68a;
+    --primary-hover: #fcd34d;
+    --accent: #facc15;
+    --success: #bef264;
     --error: #f87171;
-    --card-bg: #2c2c3e;
+    --card-bg: #1c1917;
     --card-border: #3f3f46;
-    --font-sans: var(--font-montserrat);
   }
 }
-
 
 /* Base Styles */
 body {
