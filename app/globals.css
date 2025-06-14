@@ -4,10 +4,13 @@
 
 /* CSS Variables */
 :root {
-  --background: #fffbea;
-  --foreground: #1f1f1f;
-  --primary: #fde68a;
-  --primary-hover: #fcd34d;
+  --background: #f8fafc; /* Soft light gray-blue */
+  --foreground: #1f2937; /* Dark slate for solid readability */
+  --primary: #4f46e5;    /* Indigo 600 - Reliable & modern */
+  --primary-hover: #4338ca; /* Indigo 700 - Slightly deeper */
+  --accent: #00a8e8;     /* Sky Blue - Friendly highlights */
+  --success: #28c76f;    /* Green - for confirmations */
+  --error: #ef4444;      /* Red - error messages */
   --card-bg: #ffffff;
   --card-border: #e5e7eb;
   --font-sans: var(--font-montserrat);
@@ -16,15 +19,19 @@
 /* Dark mode (optional) */
 @media (prefers-color-scheme: dark) {
   :root {
-  --background: #fffbea;
-  --foreground: #fcd34d;
-  --primary: #fde68a;
-  --primary-hover: #fcd34d;
-  --card-bg: #ffffff;
-  --card-border: #e5e7eb;
-  --font-sans: var(--font-montserrat);
+    --background: #1e1e2f;
+    --foreground: #f3f4f6;
+    --primary: #818cf8; /* Light indigo */
+    --primary-hover: #6366f1;
+    --accent: #38bdf8;  /* Sky-400 */
+    --success: #22c55e;
+    --error: #f87171;
+    --card-bg: #2c2c3e;
+    --card-border: #3f3f46;
+    --font-sans: var(--font-montserrat);
   }
 }
+
 
 /* Base Styles */
 body {
