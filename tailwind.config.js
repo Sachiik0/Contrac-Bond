@@ -2,23 +2,18 @@
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
-    './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
       colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
-        primary: 'var(--primary)',
-        'primary-hover': 'var(--primary-hover)',
-        'card-bg': 'var(--card-bg)',
-        'card-border': 'var(--card-border)',
+        bumbleYellow: '#FFDC00',
+        bumbleBeige: '#FFF6E5',
       },
       fontFamily: {
-        sans: ['var(--font-sans)'],
+        sans: ['Montserrat', 'ui-sans-serif', 'system-ui'],
       },
     },
   },
   plugins: [],
-}
+};

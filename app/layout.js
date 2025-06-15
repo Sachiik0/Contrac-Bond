@@ -1,23 +1,14 @@
-import './globals.css'
-import { Montserrat } from 'next/font/google'
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['400', '600', '700'],
-  variable: '--font-sans',
-})
+import './globals.css';
 
 export const metadata = {
-  title: "Contrac-Bond",
-  description: "Protect your work, Protect your worth.",
+  title: 'Contrac-Bond',
+  description: 'Protect Your Work. Protect Your Worth.',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} font-sans antialiased`}>
-        {children}
-      </body>
+      <body className="font-sans">{children}</body>
     </html>
-  )
+  );
 }
