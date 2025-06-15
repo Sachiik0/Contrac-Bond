@@ -137,28 +137,29 @@ export default function Page() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full h-[75px] px-6 flex items-center justify-between transition-transform duration-300 bg-bumbleBeige z-50 ${
+        className={`fixed top-0 left-0 w-full h-[75px] px-6 flex items-center justify-between transition-transform duration-300 bg-[#FFF6E5] z-50 ${
           showHeader ? '' : '-translate-y-full'
         }`}
       >
         <div className="text-[28px] font-bold text-black font-sans">Contrac-Bond</div>
-        <nav className="flex space-x-6">
-          <a
-            href="https://forms.gle/wsBmwRvb3QrraAQu7"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-lg font-medium text-black hover:underline"
+        <nav className="flex space-x-4">
+          <button
+            onClick={() =>
+              window.open('https://forms.gle/wsBmwRvb3QrraAQu7', '_blank')
+            }
+            className="px-4 py-2 bg-[#FFDC00] text-black font-semibold rounded-full hover:bg-[#f5c700] transition"
           >
             Early Access
-          </a>
+          </button>
           <button
             onClick={() => scrollToSection(sections.length - 1)}
-            className="text-lg font-medium text-black hover:underline"
+            className="px-4 py-2 bg-[#FFDC00] text-black font-semibold rounded-full hover:bg-[#f5c700] transition"
           >
             Contact us
           </button>
         </nav>
       </header>
+
 
 
       <main className="pt-[75px] h-screen overflow-y-auto scroll-smooth snap-y snap-mandatory">
