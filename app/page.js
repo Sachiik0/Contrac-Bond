@@ -143,14 +143,23 @@ export default function Page() {
       >
         <div className="text-[28px] font-bold text-black font-sans">Contrac-Bond</div>
         <nav className="flex space-x-6">
-          <button onClick={() => scrollToSection(1)} className="text-lg font-medium text-black hover:underline">
+          <a
+            href="https://forms.gle/wsBmwRvb3QrraAQu7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg font-medium text-black hover:underline"
+          >
             Early Access
-          </button>
-          <button onClick={() => scrollToSection(sections.length - 1)} className="text-lg font-medium text-black hover:underline">
+          </a>
+          <button
+            onClick={() => scrollToSection(sections.length - 1)}
+            className="text-lg font-medium text-black hover:underline"
+          >
             Contact us
           </button>
         </nav>
       </header>
+
 
       <main className="pt-[75px] h-screen overflow-y-auto scroll-smooth snap-y snap-mandatory">
         {sections.map((section, i) => (
